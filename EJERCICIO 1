@@ -1,0 +1,12 @@
+Algoritmo PROGRAMA_CONTROL_ACCESO 
+	Escribir "INGRESE  SU EDAD" 
+	Leer EDAD 
+	SI ( EDAD >= A 18 ) Entonces 
+		ESCRIBIR " BIENVENIDO  AL LABORATORIA  DE INFORMATICA "
+		
+	SINO
+		Escribir "ACCESO  NO PERMITIDO"
+		
+	FinSi
+	
+FinAlgoritmo
