@@ -1,0 +1,16 @@
+Algoritmo ControlTemperaturaCaldera
+	// Definir la variable para almacenar la temperatura
+	Definir temperatura Como Real
+	
+	// Solicitar al usuario que ingrese el valor
+	Escribir "Ingrese la temperatura actual de la caldera (°C):"
+	Leer temperatura
+	
+	// Evaluar la condición
+	Si temperatura > 100 Entonces
+		Escribir "ALERTA: Abrir válvula de escape"
+	Sino
+		Escribir "La temperatura es normal (", temperatura, "°C)"
+	FinSi
+	
+FinAlgoritmo
